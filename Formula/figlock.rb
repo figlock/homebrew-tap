@@ -1,22 +1,22 @@
 class Figlock < Formula
   desc "Headless, agent-aware password manager"
   homepage "https://figlock.com"
-  version "0.5.0"
+  version "0.5.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
-    url "https://github.com/figlock/figlock/releases/download/v0.5.0/figlock-0.5.0-universal-apple-darwin.tar.gz"
-    sha256 "dcc4c076c9997961dccb734784d05f97abd0d6f0355be6d902d7cd111c8a5939"
+    url "https://github.com/figlock/figlock/releases/download/v0.5.1/figlock-0.5.1-universal-apple-darwin.tar.gz"
+    sha256 "66e49de726034e0a87324b4a0a324aa64bf1a30dd062167fee70610fbe437a76"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/figlock/figlock/releases/download/v0.5.0/figlock-0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cec6fd211a80dd8f68f5915cad3335d7a62db5a48baa4a1adf23a5873db97f70"
+      url "https://github.com/figlock/figlock/releases/download/v0.5.1/figlock-0.5.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "20fab548a32aa69aa575630b5c94aed599c07c8b213d32a7873d55748b205b88"
     end
     on_arm do
-      url "https://github.com/figlock/figlock/releases/download/v0.5.0/figlock-0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "02764ca6d170423e65dcdefc5866c1e46a966b7a69cbd55f5dfb0f7cc477bdef"
+      url "https://github.com/figlock/figlock/releases/download/v0.5.1/figlock-0.5.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e4ee0720b653ff9012ae7939a4403a026c51d8c5a7026d42cc02b5f6fbff8927"
     end
   end
 
